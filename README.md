@@ -50,4 +50,9 @@ Ouput:
 51.2,2.4,Europe/Paris,9
 51.2,2.45,Europe/Paris,10
 ```
-
+## How to use 
+```bash
+$ mvn package
+$ cd target
+$ java -cp timezone-apply-tzwhere-0.0.1-SNAPSHOT.jar com.databerries.timezone.apply_tzwhere.Executor ~/lat_long_index_step005_20170608182001.csv 0.05
+```
