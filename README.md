@@ -56,3 +56,7 @@ $ mvn package
 $ cd target
 $ java -cp timezone-apply-tzwhere-0.0.1-SNAPSHOT.jar com.databerries.timezone.apply_tzwhere.Executor ~/lat_long_index_step005_20170608182001.csv 0.05
 ```
+
+## Dependency
+This tool uses the library [java-tzwhere](https://github.com/sensoranalytics/java-tzwhere/). We would like to thank them for their work and for sharing it. It is really appreciated. 
+
